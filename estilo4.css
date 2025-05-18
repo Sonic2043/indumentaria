@@ -1,0 +1,174 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+/* SECCION BODY */
+ body{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(port.jpg);
+
+  font-family: "Playfair Display", sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 80px;
+
+ }
+
+/* SECCION H1 */
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+/* SECCION  IMG */
+img {
+    width: 320px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+/* SECCION  HEADER */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:15%;
+    height: 70px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+
+/* SECCION SCROLL */
+.scroll{
+    background-color: aliceblue;
+    box-shadow: .1rem .2rem .3rem #333;
+}
+
+/* SECCION  SCROLL IG */
+.scroll img{
+    filter: invert(15%);
+}        
+
+/* SECCION  SCROLL H1 */
+.scroll h1{
+    color: #141C29;
+}
+
+/* SECCION CARRITO  */
+.carrito{
+    filter: invert(100%);
+    width: 45px;
+    height: auto;
+}
+
+/* SECCION  CONTENEDOR */
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+/* SECCION CONTENEDOR DE IMG */
+.contenedor>div{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    background-color: #223a61;
+    border-radius: 20px;
+}
+
+/* SECCION   CONTENEDOR DIC*/
+.contenedor>div:hover{
+    background-color: #11294d;
+}
+
+/* SECCION CONTENEDOR DE CONTACTO  */
+
+    .contacto{
+      
+    display: flex;
+    align-items: center;
+    gap: 15%;
+    height: 70px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    }
+
+
+
+
+/* SECCION INFORMACION  */
+.informacion{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:15px;
+}
+
+
+/* SECCION  INFORMACION P */
+.informacion>p:first-child{
+    font-family: 'Ancizar Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+
+/* SECCION PRECIO */
+.informacion .precio {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+/* SECCION BOTON */
+.informacion button{
+    background-color: #263143;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+
+    font-size: 17px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+
+/* SECCION BOTON HOVER */
+.informacion button:hover{
+    background-color: #2D4263;
+}
+
+
+ /* SECCION CONTENEDOR DE CONTACTO BOTON */
+
+  .contacto button{
+    background-color: #50e232;
+    width: 80px;
+    height: 45;
+    border-radius: 10px;
+    border: none;
+
+
+    font-size: 17px;
+    font-weight: 300;
+    cursor: pointer;
+  }
+
